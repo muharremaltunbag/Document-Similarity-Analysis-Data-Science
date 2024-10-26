@@ -1,5 +1,4 @@
 # Document-Similarity-Analysis-Data-Science
-Analyzing document similarity algorithms in data science using cosine, Jaccard, parallel processing, and Strassen’# Document-Similarity-Analysis-Data-Science
 
 This project explores the computational efficiency of various document similarity algorithms, a critical area in data science applications like information retrieval, clustering, and natural language processing. Using a dataset derived from *War and Peace* by Leo Tolstoy, we analyze and benchmark different similarity measures, including Cosine and Jaccard, and experiment with optimization techniques such as parallel processing and Strassen's algorithm.
 
@@ -7,13 +6,14 @@ This project explores the computational efficiency of various document similarit
 The goal of this project is to understand the performance trade-offs between different similarity measures and optimization methods for large-scale document similarity computations. By analyzing both theoretical and empirical runtime complexities, this project provides insights into efficient ways to compute document similarity in data-intensive environments.
 
 ## Project Structure
-- **`notebook.ipynb`**: Jupyter Notebook containing all code, analysis, and visualizations for each question in the project.
+- **`notebook.ipynb`**: Jupyter Notebook containing all code, analysis, and visualizations for each question in the project. 
 - **`data/`**: Directory containing `data2023.csv`, the main dataset used in this project.
 - **`docs/`**: Directory with additional reference documents:
-  - `assignment Q5 hint.pdf`: Guidance for using Strassen's algorithm in similarity computations.
   - `Getting started 2023.pdf`: Instructions on loading and preparing the dataset.
-  - `Muharrem Altunbag_284362_Report T1.pdf`: Detailed project report.
+  - `Muharrem Altunbag_284362_Report T1.pdf`: Detailed project report covering all findings and methods in the Jupyter notebook.
 - **`requirements.txt`**: List of required packages to install for running the notebook.
+
+> **Note**: All analysis, code, and explanations are thoroughly documented in the `Muharrem Altunbag_284362_Report T1.ipynb` file, with supporting information available in the `docs/` directory.
 
 ## Key Questions Explored
 1. **Cosine Similarity Analysis**: 
@@ -41,4 +41,3 @@ The goal of this project is to understand the performance trade-offs between dif
    ```bash
    git clone https://github.com/yourusername/Document-Similarity-Analysis-Data-Science.git
    cd Document-Similarity-Analysis-Data-Science
-
