@@ -39,5 +39,5 @@ The goal of this project is to understand the performance trade-offs between dif
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Document-Similarity-Analysis-Data-Science.git
+   git clone https://github.com/muharremaltunbag/Document-Similarity-Analysis-Data-Science.git 
    cd Document-Similarity-Analysis-Data-Science
